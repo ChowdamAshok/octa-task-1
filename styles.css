@@ -11,8 +11,11 @@ body {
     margin: 0 auto;
     padding: 20px;
   }
-  .nav-logo{
-    height: 80px;
+  .nav-logo h1{
+    background: linear-gradient(90deg, #00ffff,#ff00c3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   .navbar {
     overflow: hidden;
