@@ -77,13 +77,15 @@ body {
     color: #bbb
   }
   .left-2{
-    float: right;
-    text-align: right;
+    float: left;
+    text-align: left;
+    display: flex;
   }
   .left-2 img{
     width:100%;
     height: 500px;
     margin-left: 20px;
+      
   }
 
 
