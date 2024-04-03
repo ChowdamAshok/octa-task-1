@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+  .home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .nav-logo{
+    height: 80px;
+  }
+  .navbar {
+    overflow: hidden;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-left: 5px;
+    background-color: rgba(255, 0, 0, 0.5) ;
+    border-radius: 15px;
+  }
+  .navbar:hover{
+    box-shadow: 1px 3px 8px aqua;
+  }
+  .navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .navbar a:hover{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color:aqua;
+  }
+  .left{
+    color: white;
+    width: 50%;
+    text-align: left;
+    text-decoration: solid;
+    font-size: 25px;
+  }
+  .right{
+    float: right;
+    text-align: right;
+    display: flex;
+  }
+  .right img{
+    width:100%;
+    margin-right: 20px;
+  }
+  .about-us{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .right-2{
+    color: white;
+    width: 50%;
+    text-align: left;
+    text-decoration: solid;
+    font-size: 25px;
+  }
+  .right-2 h1{
+    text-decoration: solid;
+  }
+  .right-2 p{
+    color: #bbb
+  }
+  .left-2{
+    float: right;
+    text-align: right;
+  }
+  .left-2 img{
+    width:100%;
+    height: 500px;
+    margin-left: 20px;
+  }
+
+
+  .home h1{
+    font-size: 50px;
+    margin-top: 70px;
+  }
+
+  
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+  }
+  .social-icons img{
+    height: 30px;
+    transition: all;
+  }
+  .social-icons img:hover{
+    transform: scale(1.8);
+  }
+  .cards{
+    position: relative;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .cards p{
+    Color: #FFCC00;
+    background-color: #333333;
+  }
+  .cards img{
+      height: 100px;
+      position: relative;
+      width: 100%;
+      transition: all;
+  }
+  .cards img:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 5px 10px rgb(87, 247, 247);
+
+  }
+  .card-1 {
+    border: 2px solid #ff0000;
+    width: 200px;
+  }
+  .card-2 {
+    border: 2px solid red;
+    width: 200px;
+  }
+  .card-3 {
+    border: 2px solid #ff0000;
+    width: 200px;
+  }
+  .card-4 {
+    border: 2px solid red;
+    width: 200px;
+  }
+  .buy-now-btn {
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all;
+
+  }
+  .buy-now-btn img{
+    width: 50px;
+    display: flex;
+    justify-content: right;
+    justify-content: space-between;
+    
+  }
+  .buy-now-btn:hover {
+    background-color: rgb(0, 255, 64);
+    transform: scale(1.1);
+    box-shadow: 0 0 15px white;
+
+  }
+
+  
