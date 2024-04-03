@@ -11,7 +11,7 @@ body {
     margin: 0 auto;
     padding: 20px;
   }
-  .logo h1{
+  .navbar logo h1{
       width: 100px;
       background: linear-gradient(90deg, #00ffff,#ffffff);
       -webkit-background-clip: text;
