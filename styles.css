@@ -11,11 +11,9 @@ body {
     margin: 0 auto;
     padding: 20px;
   }
-  .navbar logo{
-      height: 100px;
-  }
-  .logo h1{
-    color:orange;
+  .navbar h1{
+      color: orange;
+      font-size: 30px;
   }
   .navbar {
     overflow: hidden;
