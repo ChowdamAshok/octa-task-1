@@ -12,7 +12,8 @@ body {
     padding: 20px;
   }
   .nav-logo{
-    height: 80px;
+      height: 100px;
+      color:orange;
   }
   .navbar {
     overflow: hidden;
