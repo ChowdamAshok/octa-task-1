@@ -11,10 +11,10 @@ body {
     margin: 0 auto;
     padding: 20px;
   }
-  .nav-logo{
+  .navbar logo{
       height: 100px;
   }
-.nav-logo h1{
+.navbar logo h1{
     color:orange;
   }
   .navbar {
