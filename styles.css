@@ -83,7 +83,7 @@ body {
     left: 50%;
     border-radius: 50%;
     animation: steam 2s infinite linear;
-    filter: blur(2px);
+    filter: blur(5px);
     animation-delay: calc(var(--1)* -0.5s);
 
 }
