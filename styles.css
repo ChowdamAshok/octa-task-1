@@ -80,7 +80,6 @@ body {
     height: 40px;
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 100%);
     position: relative;
-    top: -10px
     left: 50%;
     border-radius: 50%;
     animation: steam 2s infinite linear;
